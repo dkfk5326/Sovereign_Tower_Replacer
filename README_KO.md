@@ -26,12 +26,15 @@
 - 백업 / 복원 지원
 
 ## 다운로드
-실행용 패키지는 [`dist/`](dist/) 폴더에 있습니다.
+현재 릴리즈 파일을 바로 다운로드할 수 있습니다.
 
-- `SovereignTower_Portrait_Replacer_v0.7.0.zip`
-- `SovereignTower_Font_Replacer_v0.4.0.zip`
+- [SovereignTower_Portrait_Replacer_v0.7.0.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/SovereignTower_Portrait_Replacer_v0.7.0.zip)
+- [SovereignTower_Font_Replacer_v0.4.0.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/SovereignTower_Font_Replacer_v0.4.0.zip)
+- [REPLACE.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/REPLACE.zip)
 
-압축을 풀고 `START.bat`를 실행하시면 됩니다.
+[v0.7.0 릴리즈 페이지 보기](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/tag/v0.7.0)
+
+리플레이서 도구는 ZIP 압축을 풀고 `START.bat`를 실행하시면 됩니다.
 
 ## 예시 이미지
 맨 위의 Victoria 이미지를 기본 스타일 예시로 사용합니다.

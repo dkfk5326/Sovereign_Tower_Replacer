@@ -1,7 +1,7 @@
 # Sovereign Tower Replacer
 
 <p align="center">
-  <img src="docs/images/examples/Victoria.png" alt="Victoria example" width="420">
+  <img src="docs/images/examples/Victoria.jpg" alt="Victoria example" width="420">
 </p>
 
 Anime / subculture-style replacement tools and example assets for **Sovereign Tower**.

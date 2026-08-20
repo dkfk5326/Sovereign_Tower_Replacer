@@ -42,27 +42,24 @@ Use **`REPLACE/`** as the source directory for Portrait Replacer batch replaceme
 ### Current replacement list
 - **Academician** — smiling, stoical
 - **Agrand** — proud, sad, serious
-- **Alwena** — worried
+- **Alwena** — worried, armored, serious, angry, serious, shouting, whispering
 - **Angelica** — armored, cat, embarrassed, from behind, possessed, sad, smiling, surprised
 - **Ari** — armored, curious, possessed, serious, smiling
 - **Aristocrat** — disgusted, surprised
 - **Arlin** — angry, calm, checking notes, cook overlay, crying, distraught, embarrassed, frightened, from behind, objecting, objecting arm, sad, smiling, surprised
-- **Blacksmith (Carina)** — blushing, blushing dress, blushing hammerless, disgusted, disgusted hammerless, serious, serious hammerless, sideeye, sideeye dress, sideeye hammerless, smiling, smiling dress, smiling hammerless
+- **Blacksmith** — blushing, blushing dress, blushing hammerless, disgusted, disgusted hammerless, serious, serious hammerless, sideeye, sideeye dress, sideeye hammerless, smiling, smiling dress, smiling hammerless
 - **Brunhilda** — angry, armored, blushing, blushing second, from behind, pleading, possessed, sad, sarcastic, serious, sigh, smiling, surprised
 - **Dragon Knight** — serious, threatening, young, young embarrassed
 - **Farmer** — serious, worried
 - **Gendan** — humble calm, humble worried embarrassed
 - **Gideon** — angry, armored, blushing, blushing smiling, blushing sweaty, disgusted, melodramatic element 1, melodramatic element 2, possessed, serious, sigh, smiling, surprised, sweaty
 - **Gwendan** — angry, disgusted, from behind, humble blushing, humble blushing smiling, humble from behind, humble possessed, humble smiling, humble surprised, humbled disgusted, possessed, smiling
-- **Intendant Knight** — armored, serious
-- **Intendante** — angry, serious, shouting, whispering
 - **Kingslayer** — armor crumbling, intro, serious
 - **Lady Tower** — blush, human blushing, human blushing smiling, human neutral, human sad, sad, serious, smiling
 - **Ligia** — blushing, embarrassed, flirty, knight armored, knight embarrassed, knight flirty side eyes, knight serious, knight smiling, knight surprised curious, knight worried, possessed, serious, smiling, surprised curious, worried
 - **Oliver** — armored, base possessed, embarrassed, mage armored, mage blushing, mage embarrassed, mage from behind, mage smoking, mage smiling, mage stoical, mage surprised worried, possessed, smiling, smoke, stoical, surprised worried
 - **Rowan** — blush, calm, embarrassed, sideeye, smile
 - **Rupin** — angry, worried, worried neutral, worried smile
-- **Shadow** — default
 - **Ursule** — armored, blushing, blushing side eye, corruption low neutral, from behind, high corruption armored, high corruption blushing side eye, low corruption armored, low corruption blushing, low corruption sigh, low corruption smiling, mid corruption armored, mid corruption blushing, mid corruption sigh, mid corruption smiling, neutral, sigh, smiling
 - **Victoria** — armored, cringing, demonic, devilish, disgusted, from behind, sadistic, smiling, terrifying
 - **Witch Belladonna** — angry, blushing, curious, flirty, serious, smiling, worried
@@ -77,3 +74,7 @@ Use **`REPLACE/`** as the source directory for Portrait Replacer batch replaceme
 - No original game assets are included.
 - The replacement set is a work in progress and the coverage will continue to expand.
 - This project is unofficial and is not affiliated with the developer or publisher of *Sovereign Tower*.
+
+## License
+- This project follows the CC BY-NC 4.0 license. Commercial use is prohibited, and attribution is required.
+- Use for advertising, sales, or profit generation purposes is prohibited.

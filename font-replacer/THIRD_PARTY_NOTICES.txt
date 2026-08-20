@@ -1,0 +1,7 @@
+Third-party components
+
+fontTools is used for optional font subsetting.
+See fontTools-LICENSE.txt.
+
+Godot Engine 4.6.2 is downloaded separately when required and is not bundled.
+GDRETools and Microsoft DirectXTex/texconv are external tools and are not bundled.

@@ -26,12 +26,15 @@ This project replaces character portraits and Korean fonts for *Sovereign Tower*
 - Supports backup and restore
 
 ## Downloads
-Ready-to-run packages are in [`dist/`](dist/):
+Download the current release files directly:
 
-- `SovereignTower_Portrait_Replacer_v0.7.0.zip`
-- `SovereignTower_Font_Replacer_v0.4.0.zip`
+- [SovereignTower_Portrait_Replacer_v0.7.0.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/SovereignTower_Portrait_Replacer_v0.7.0.zip)
+- [SovereignTower_Font_Replacer_v0.4.0.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/SovereignTower_Font_Replacer_v0.4.0.zip)
+- [REPLACE.zip](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/download/v0.7.0/REPLACE.zip)
 
-Extract a ZIP and run `START.bat`.
+[View the v0.7.0 release](https://github.com/dkfk5326/Sovereign_Tower_Replacer/releases/tag/v0.7.0)
+
+Extract a ZIP and run `START.bat` for the replacer tools.
 
 ## Example image
 The Victoria image shown at the top is the primary style reference.

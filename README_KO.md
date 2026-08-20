@@ -6,7 +6,7 @@
 
 **Sovereign Tower**용 아니메 / 서브컬처풍 리플레이서 도구와 예시 에셋 모음입니다.
 
-이 프로젝트는 *Sovereign Tower*의 캐릭터 초상화와 한국어 폰트를 교체하기 위한 도구를 제공합니다. 초상화 모드를 적용할 때는 **`REPLACE/`** 폴더 안의 이미지를 Portrait Replacer의 교체 원본으로 사용하시면 됩니다. 맨 위의 Victoria 이미지는 의도한 스타일 예시입니다. 교체 대상 목록은 계속 확장 중입니다.
+이 프로젝트는 *Sovereign Tower*의 캐릭터 초상화와 한국어 폰트를 교체하기 위한 도구를 제공합니다. 초상화 모드에서는 **`REPLACE/`** 폴더를 Portrait Replacer의 일괄 교체 원본 폴더로 사용합니다. 맨 위의 Victoria 이미지는 의도한 스타일 예시입니다. 교체 대상 목록은 계속 확장 중입니다.
 
 ## 포함된 도구
 
@@ -34,11 +34,10 @@
 압축을 풀고 `START.bat`를 실행하시면 됩니다.
 
 ## 예시 이미지
-- `docs/images/examples/Victoria.png` *(맨 위에 표시됨)*
-- 다른 예시 이미지는 [`docs/images/examples/`](docs/images/examples/) 폴더에서 확인할 수 있습니다.
+맨 위의 Victoria 이미지를 기본 스타일 예시로 사용합니다.
 
 ## REPLACE 폴더
-저장소에는 현재까지 작업된 초상화 교체본이 **`REPLACE/`** 폴더에 채워져 있습니다. Portrait Replacer의 폴더 일괄 교체 기능에서 이 폴더를 그대로 사용할 수 있습니다.
+**`REPLACE/`** 폴더를 Portrait Replacer의 일괄 교체 원본 폴더로 사용합니다. 현재 캐릭터 / 표정 범위는 아래와 같으며 계속 추가 중입니다.
 
 ### 현재 교체 목록
 - **Academician** — smiling, stoical

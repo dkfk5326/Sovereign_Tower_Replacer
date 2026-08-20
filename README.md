@@ -1,68 +1,80 @@
 # Sovereign Tower Replacer
 
-Unofficial Windows tools for **Sovereign Tower**.
+<p align="center">
+  <img src="docs/images/examples/Victoria.png" alt="Victoria example" width="420">
+</p>
 
-[한국어 README](README_KO.md)
+Anime / subculture-style replacement tools and example assets for **Sovereign Tower**.
 
-## Portrait Replacer 0.7.0
+This project replaces character portraits and Korean fonts for *Sovereign Tower*. For portrait mods, use the images inside the **`REPLACE/`** folder as the replacement source in the Portrait Replacer. The example image above shows the intended style direction. The replacement set is still expanding over time.
 
-Replaces character portrait textures in `sovereign_tower.pck` with PNG images.
+## Included tools
 
+### Portrait Replacer 0.7.0
 - Korean and English GUI
 - Character filter and search
 - Single and batch replacement
 - Original PNG export through GDRE Tools
-- Supports DXT5/BC3, WebP, and PNG portrait textures used by the game
+- Supports the portrait CTEX storage types currently found in the game: DXT5/BC3, WebP, and PNG
+- Preserves the original PCK layout when applying portrait replacements
 - Creates a backup before modifying the game PCK
 
-## Font Replacer 0.4.0
-
-Replaces the Korean NotoSansKR font resources in `sovereign_tower.pck` with a selected TTF/OTF font.
-
+### Font Replacer 0.4.0
 - Korean and English GUI
-- Main and fallback NotoSansKR targets
-- Uses Godot 4.6.2 to create game-compatible `.fontdata`
-- Optional font size optimization
-- Creates a font backup before the first replacement
+- Replaces the Korean NotoSansKR resources in `sovereign_tower.pck`
+- Uses Godot 4.6.2 to generate compatible `.fontdata`
+- Supports backup and restore
 
-## Run
+## Downloads
+Ready-to-run packages are in [`dist/`](dist/):
 
-Clone or download this repository, then run `START.bat` in the tool you want to use:
+- `SovereignTower_Portrait_Replacer_v0.7.0.zip`
+- `SovereignTower_Font_Replacer_v0.4.0.zip`
 
-- `portrait-replacer/START.bat`
-- `font-replacer/START.bat`
+Extract a ZIP and run `START.bat`.
 
-The GUI detects Korean or English from the system locale. `START_KO.bat` and `START_EN.bat` can be used to force a language.
+## Example images
+- `docs/images/examples/Victoria.png` *(featured above)*
+- Additional example images are available in [`docs/images/examples/`](docs/images/examples/).
 
-For optional font size optimization, install fontTools once:
+## REPLACE folder
+The repository includes a **`REPLACE/`** folder populated with the current portrait replacement set. You can use this folder directly in the Portrait Replacer batch replacement tab.
 
-```text
-pip install fonttools
-```
+### Current replacement list
+- **Academician** — smiling, stoical
+- **Agrand** — proud, sad, serious
+- **Alwena** — worried
+- **Angelica** — armored, cat, embarrassed, from behind, possessed, sad, smiling, surprised
+- **Ari** — armored, curious, possessed, serious, smiling
+- **Aristocrat** — disgusted, surprised
+- **Arlin** — angry, calm, checking notes, cook overlay, crying, distraught, embarrassed, frightened, from behind, objecting, objecting arm, sad, smiling, surprised
+- **Blacksmith (Carina)** — blushing, blushing dress, blushing hammerless, disgusted, disgusted hammerless, serious, serious hammerless, sideeye, sideeye dress, sideeye hammerless, smiling, smiling dress, smiling hammerless
+- **Brunhilda** — angry, armored, blushing, blushing second, from behind, pleading, possessed, sad, sarcastic, serious, sigh, smiling, surprised
+- **Dragon Knight** — serious, threatening, young, young embarrassed
+- **Farmer** — serious, worried
+- **Gendan** — humble calm, humble worried embarrassed
+- **Gideon** — angry, armored, blushing, blushing smiling, blushing sweaty, disgusted, melodramatic element 1, melodramatic element 2, possessed, serious, sigh, smiling, surprised, sweaty
+- **Gwendan** — angry, disgusted, from behind, humble blushing, humble blushing smiling, humble from behind, humble possessed, humble smiling, humble surprised, humbled disgusted, possessed, smiling
+- **Intendant Knight** — armored, serious
+- **Intendante** — angry, serious, shouting, whispering
+- **Kingslayer** — armor crumbling, intro, serious
+- **Lady Tower** — blush, human blushing, human blushing smiling, human neutral, human sad, sad, serious, smiling
+- **Ligia** — blushing, embarrassed, flirty, knight armored, knight embarrassed, knight flirty side eyes, knight serious, knight smiling, knight surprised curious, knight worried, possessed, serious, smiling, surprised curious, worried
+- **Oliver** — armored, base possessed, embarrassed, mage armored, mage blushing, mage embarrassed, mage from behind, mage smoking, mage smiling, mage stoical, mage surprised worried, possessed, smiling, smoke, stoical, surprised worried
+- **Rowan** — blush, calm, embarrassed, sideeye, smile
+- **Rupin** — angry, worried, worried neutral, worried smile
+- **Shadow** — default
+- **Ursule** — armored, blushing, blushing side eye, corruption low neutral, from behind, high corruption armored, high corruption blushing side eye, low corruption armored, low corruption blushing, low corruption sigh, low corruption smiling, mid corruption armored, mid corruption blushing, mid corruption sigh, mid corruption smiling, neutral, sigh, smiling
+- **Victoria** — armored, cringing, demonic, devilish, disgusted, from behind, sadistic, smiling, terrifying
+- **Witch Belladonna** — angry, blushing, curious, flirty, serious, smiling, worried
+- **Worker** — smiling, worried
 
 ## Usage
-
 - [English guide](docs/USAGE_EN.md)
+- [한국어 설명서](README_KO.md)
 - [한국어 사용법](docs/USAGE_KO.md)
 
-## Requirements
-
-- Windows
-- Python 3 with Tkinter
-- GDRE Tools for original portrait export and optional PCK validation
-- Microsoft DirectXTex / texconv may be installed automatically when DXT5 encoding is required
-- Godot Engine 4.6.2 may be downloaded automatically when required
-
-The tested Python runtime payload for each tool is stored under its `.payload/` directory and loaded by the corresponding launcher script.
-
-No game assets are included in this repository.
-
-## Disclaimer
-
-This project is unofficial and is not affiliated with the developer or publisher of Sovereign Tower. Game updates may change resource paths or formats.
-
-## License
-
-This project follows the CC BY-NC 4.0 license.
-
-Commercial use is prohibited, and attribution is required. Use for advertising, sales, or profit generation purposes is not permitted.
+## Notes
+- No original game assets are included.
+- The replacement set is a work in progress and the coverage will continue to expand.
+- This project is unofficial and is not affiliated with the developer or publisher of *Sovereign Tower*.

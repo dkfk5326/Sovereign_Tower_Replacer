@@ -6,7 +6,7 @@
 
 Anime / subculture-style replacement tools and example assets for **Sovereign Tower**.
 
-This project replaces character portraits and Korean fonts for *Sovereign Tower*. For portrait mods, use the images inside the **`REPLACE/`** folder as the replacement source in the Portrait Replacer. The example image above shows the intended style direction. The replacement set is still expanding over time.
+This project replaces character portraits and Korean fonts for *Sovereign Tower*. For portrait mods, the **`REPLACE/`** folder is the batch-replacement source directory used by the Portrait Replacer. The example image above shows the intended style direction. The replacement set is still expanding over time.
 
 ## Included tools
 
@@ -33,12 +33,11 @@ Ready-to-run packages are in [`dist/`](dist/):
 
 Extract a ZIP and run `START.bat`.
 
-## Example images
-- `docs/images/examples/Victoria.png` *(featured above)*
-- Additional example images are available in [`docs/images/examples/`](docs/images/examples/).
+## Example image
+The Victoria image shown at the top is the primary style reference.
 
 ## REPLACE folder
-The repository includes a **`REPLACE/`** folder populated with the current portrait replacement set. You can use this folder directly in the Portrait Replacer batch replacement tab.
+Use **`REPLACE/`** as the source directory for Portrait Replacer batch replacement. The current character / expression coverage is listed below and is being expanded over time.
 
 ### Current replacement list
 - **Academician** — smiling, stoical

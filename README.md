@@ -60,3 +60,9 @@ No game assets are included in this repository.
 ## Disclaimer
 
 This project is unofficial and is not affiliated with the developer or publisher of Sovereign Tower. Game updates may change resource paths or formats.
+
+## License
+
+This project follows the CC BY-NC 4.0 license.
+
+Commercial use is prohibited, and attribution is required. Use for advertising, sales, or profit generation purposes is not permitted.

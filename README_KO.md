@@ -6,7 +6,7 @@
 
 **Sovereign Tower**용 아니메 / 서브컬처풍 리플레이서 도구와 예시 에셋 모음입니다.
 
-이 프로젝트는 *Sovereign Tower*의 캐릭터 초상화와 한국어 폰트를 교체하기 위한 도구를 제공합니다. 초상화 모드에서는 **`REPLACE/`** 폴더를 Portrait Replacer의 일괄 교체 원본 폴더로 사용합니다. 맨 위의 Victoria 이미지는 기본 스타일 예시입니다. 교체 대상은 계속 확장 중입니다.
+이 프로젝트는 *Sovereign Tower*의 캐릭터 초상화와 한국어 폰트를 교체하기 위한 도구를 제공합니다. 초상화 모드에서는 **`REPLACE/`** 폴더를 Portrait Replacer의 일괄 교체 원본 폴더로 사용합니다. 맨 위의 Victoria 이미지는 의도한 스타일 예시입니다. 교체 대상 목록은 계속 확장 중입니다.
 
 ## 포함된 도구
 
@@ -25,13 +25,13 @@
 - Godot 4.6.2를 사용해 호환되는 `.fontdata` 생성
 - 백업 / 복원 지원
 
-## 실행
-저장소를 내려받은 뒤 사용할 도구의 실행 파일을 실행합니다.
+## 다운로드
+실행용 패키지는 [`dist/`](dist/) 폴더에 있습니다.
 
-- `portrait-replacer/START.bat`
-- `font-replacer/START.bat`
+- `SovereignTower_Portrait_Replacer_v0.7.0.zip`
+- `SovereignTower_Font_Replacer_v0.4.0.zip`
 
-`START_KO.bat`, `START_EN.bat`으로 시작 언어를 지정할 수도 있습니다.
+압축을 풀고 `START.bat`를 실행하시면 됩니다.
 
 ## 예시 이미지
 맨 위의 Victoria 이미지를 기본 스타일 예시로 사용합니다.
@@ -47,7 +47,7 @@
 - **Ari** — armored, curious, possessed, serious, smiling
 - **Aristocrat** — disgusted, surprised
 - **Arlin** — angry, calm, checking notes, cook overlay, crying, distraught, embarrassed, frightened, from behind, objecting, objecting arm, sad, smiling, surprised
-- **Blacksmith** — blushing, blushing dress, blushing hammerless, disgusted, disgusted hammerless, serious, serious hammerless, sideeye, sideeye dress, sideeye hammerless, smiling, smiling dress, smiling hammerless
+- **Blacksmith (Carina)** — blushing, blushing dress, blushing hammerless, disgusted, disgusted hammerless, serious, serious hammerless, sideeye, sideeye dress, sideeye hammerless, smiling, smiling dress, smiling hammerless
 - **Brunhilda** — angry, armored, blushing, blushing second, from behind, pleading, possessed, sad, sarcastic, serious, sigh, smiling, surprised
 - **Dragon Knight** — serious, threatening, young, young embarrassed
 - **Farmer** — serious, worried
@@ -76,6 +76,3 @@
 - 원본 게임 에셋은 포함되어 있지 않습니다.
 - 교체 대상은 계속 추가 중입니다.
 - 이 프로젝트는 비공식 팬 프로젝트이며 *Sovereign Tower*의 개발사 / 퍼블리셔와 관련이 없습니다.
-
-## 라이선스
-이 프로젝트는 **CC BY-NC 4.0** 조건으로 배포됩니다. 상업적 이용은 금지되며 저작자 표시가 필요합니다.

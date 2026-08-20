@@ -1,7 +1,7 @@
 # Sovereign Tower Replacer
 
 <p align="center">
-  <img src="docs/images/examples/Victoria.png" alt="Victoria example" width="420">
+  <img src="docs/images/examples/Victoria.jpg" alt="Victoria example" width="420">
 </p>
 
 **Sovereign Tower**용 아니메 / 서브컬처풍 리플레이서 도구와 예시 에셋 모음입니다.

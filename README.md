@@ -1,10 +1,10 @@
-# Sovereign Tower Modding Tools
+# Sovereign Tower Replacer
 
 Unofficial Windows tools for **Sovereign Tower**.
 
-## Tools
+[한국어 README](README_KO.md)
 
-### Portrait Replacer 0.7.0
+## Portrait Replacer 0.7.0
 
 Replaces character portrait textures in `sovereign_tower.pck` with PNG images.
 
@@ -12,30 +12,33 @@ Replaces character portrait textures in `sovereign_tower.pck` with PNG images.
 - Character filter and search
 - Single and batch replacement
 - Original PNG export through GDRE Tools
-- Supports the portrait CTEX storage types currently found in the game: DXT5/BC3, WebP, and PNG
-- Preserves the original PCK layout when applying portrait replacements
+- Supports DXT5/BC3, WebP, and PNG portrait textures used by the game
 - Creates a backup before modifying the game PCK
 
-### Font Replacer 0.4.0
+## Font Replacer 0.4.0
 
 Replaces the Korean NotoSansKR font resources in `sovereign_tower.pck` with a selected TTF/OTF font.
 
 - Korean and English GUI
-- Targets the main and fallback NotoSansKR resources
+- Main and fallback NotoSansKR targets
 - Uses Godot 4.6.2 to create game-compatible `.fontdata`
-- Can reduce a large font when required
+- Optional font size optimization
 - Creates a font backup before the first replacement
 
-## Downloads
+## Run
 
-Ready-to-run packages are in [`dist/`](dist/):
+Clone or download this repository, then run `START.bat` in the tool you want to use:
 
-- `SovereignTower_Portrait_Replacer_v0.7.0.zip`
-- `SovereignTower_Font_Replacer_v0.4.0.zip`
+- `portrait-replacer/START.bat`
+- `font-replacer/START.bat`
 
-Extract a ZIP and run `START.bat`. The GUI selects Korean or English from the system locale. You can also switch languages from the top-right language menu.
+The GUI detects Korean or English from the system locale. `START_KO.bat` and `START_EN.bat` can be used to force a language.
 
-`START_KO.bat` and `START_EN.bat` force a language at startup.
+For optional font size optimization, install fontTools once:
+
+```text
+pip install fonttools
+```
 
 ## Usage
 
@@ -47,10 +50,10 @@ Extract a ZIP and run `START.bat`. The GUI selects Korean or English from the sy
 - Windows
 - Python 3 with Tkinter
 - GDRE Tools for original portrait export and optional PCK validation
-- Microsoft DirectXTex / texconv may be installed automatically when a DXT5 portrait needs encoding
+- Microsoft DirectXTex / texconv may be installed automatically when DXT5 encoding is required
 - Godot Engine 4.6.2 may be downloaded automatically when required
 
-The font package includes `fontTools` for optional font subsetting. See [`third_party/fontTools-LICENSE.txt`](third_party/fontTools-LICENSE.txt).
+The tested Python runtime payload for each tool is stored under its `.payload/` directory and loaded by the corresponding launcher script.
 
 No game assets are included in this repository.
 
